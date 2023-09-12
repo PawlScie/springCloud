@@ -1,1 +1,1 @@
-GET http://localhost:8888/001-Base-components/application-default.yml
+GET http://localhost:8888/SpringCloudZadanie/application-default.yml
