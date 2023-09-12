@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="discovery" />
+        <module name="gateway" />
         <module name="configuration-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="configuration-server" target="17" />
       <module name="discovery" target="17" />
+      <module name="gateway" target="17" />
       <module name="springCloud3" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +22,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="configuration-server" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="springCloud3" options="" />
     </option>
   </component>
 </project>
